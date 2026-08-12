@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AJexRen — Official Site</title>
+    <style>
+        :root {
+            --bg-color: #0d0d0d;
+            --card-bg: #161616;
+            --accent-color: #e50914; /* Rojo característico */
+            --text-color: #f5f5f5;
+            --text-dim: #a0a0a0;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 600px;
+            padding: 2rem;
+        }
+
+        h1 {
+            font-size: 3rem;
+            letter-spacing: -1px;
+            margin-bottom: 0.5rem;
+        }
+
+        h1 span {
+            color: var(--accent-color);
+        }
+
+        .slogan {
+            font-size: 1.2rem;
+            color: var(--text-dim);
+            font-style: italic;
+            margin-bottom: 2.5rem;
+        }
+
+        .card {
+            background-color: var(--card-bg);
+            border: 1px solid #262626;
+            border-radius: 12px;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+            text-align: left;
+        }
+
+        .card h3 {
+            margin-top: 0;
+            color: var(--text-color);
+        }
+
+        .card p {
+            color: var(--text-dim);
+            font-size: 0.95rem;
+            line-height: 1.5;
+        }
+
+        .btn {
+            display: inline-block;
+            background-color: var(--accent-color);
+            color: white;
+            padding: 10px 20px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 0.9rem;
+            margin-top: 10px;
+            transition: opacity 0.2s;
+        }
+
+        .btn:hover {
+            opacity: 0.9;
+        }
+
+        footer {
+            margin-top: 3rem;
+            font-size: 0.8rem;
+            color: var(--text-dim);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>AJex<span>Ren</span></h1>
+        <p class="slogan">"You Will never be alone"</p>
+
+        <div class="card">
+            <h3>AJexRen Calculator</h3>
+            <p>Calculadora ultra rápida, ligera y sin anuncios. Diseñada con una interfaz pulcra y oscura.</p>
+            <a href="#" class="btn">Próximamente APK</a>
+        </div>
+
+        <div class="card">
+            <h3>AlumixOS Launcher</h3>
+            <p>El portal de entrada a un ecosistema limpio, personalizable y sin restricciones.</p>
+            <a href="#" class="btn">En desarrollo</a>
+        </div>
+
+        <footer>
+            &copy; AJexRen Project. Todos los derechos reservados.
+        </footer>
+    </div>
+
+</body>
+</html>
